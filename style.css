@@ -89,11 +89,13 @@ header{
     display:none;
     background-color:white;
     position: absolute;
-    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 15px;
+    border-radius:5px;
 }
 
 .dd-c a{
     display:block;
+    padding:10px 20px 10px 5px;
 }
 
 .list{
