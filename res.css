@@ -36,4 +36,7 @@
         position:relative;
         background-color:white;
     }
+    .c-2 img{
+        width:400px;
+    }
 }
