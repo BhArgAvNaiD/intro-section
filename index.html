@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="utils.css">
+  <link rel="stylesheet" href="res.css">
+
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+
+<body>
+  <header>
+    <div class="container-1">
+        <div class="d-d">
+          <nav class="flex-r">
+            <ul class="flex-r">
+              <img src="./images/logo.svg" alt="logo" class="logo">
+              <li class="dd-m">
+                <a href="#">Features&nbsp;<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></a>
+                <ul class="dd-c">
+                  <li><a href="#"><img src="./images/icon-planning.svg" alt="icon-planning">Todo List</a></li>
+                  <li><a href="#"><img src="./images/icon-calendar.svg" alt="icon-calendar">Calendar</a></li>
+                  <li><a href="#"><img src="./images/icon-reminders.svg" alt="icon-reminders">Remainders</a></li>
+                  <li><a href="#"><img src="./images/icon-planning.svg" alt="icon-planning">Planning</a></li>
+                </ul>
+              </li>
+              <li class="dd-m">
+                <a href="#">Company&nbsp;<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></a>
+                <ul class="dd-c">
+                  <a href="#">History</a>
+                  <a href="#">Our Team</a>
+                  <a href="#">Blog</a>
+                </ul>
+              </li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+            <ul class="nav-flex">
+              <li><a href="#">Login</a></li>
+              <li><a href="#" class="bdr-btn">Register</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="d-m">
+          <nav class="nav-flex">
+            <img src="./images/logo.svg" alt="logo" class="logo">
+            <div class="list" id="list">
+              <ul class="flex-c">
+                <img src="./images/icon-close-menu.svg" alt="close" class="close">
+                <li class="dd-m">
+                  <a href="#">Features&nbsp;<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></a>
+                  <div class="dd-c">
+                    <a href="#"><img src="./images/icon-todo.svg" alt="icon-planning">Todo List</a>
+                    <a href="#"><img src="./images/icon-calendar.svg" alt="icon-calendar">Calendar</a>
+                    <a href="#"><img src="./images/icon-reminders.svg" alt="icon-reminders">Remainders</a>
+                    <a href="#"><img src="./images/icon-planning.svg" alt="icon-planning">Planning</a>
+                  </div>
+                </li>
+                <li class="dd-m">
+                  <a href="#">Company&nbsp;<img src="./images/icon-arrow-down.svg" alt="icon-arrow-down"></a>
+                  <div class="dd-c">
+                    <a href="#">History</a>
+                    <a href="#">Our Team</a>
+                    <a href="#">Blog</a>
+                  </div>
+                </li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+              <ul class="flex-r">
+                <li><a href="#">Login</a></li>
+                <li><a href="#" class="bdr-btn">Register</a></li>
+              </ul>
+            </div>
+            <img src="./images/icon-menu.svg" alt="icon-menu" class="open">
+          </nav>
+        </div>
+    </div>
+  </header>
+  <section>
+    <div class="container-2 flex-r">
+      <div class="c-1">
+        <h1> Make remote work</h1>
+        <p class="m-t"> Get your team in sync, no matter your location.Streamline processes,
+          create team rituals, and watch productivity soar.</p>
+        <button class="btn m-t">Learn more</button>
+        <div class="c-m-t">
+          <img src="./images/client-databiz.svg" alt="a">
+          <img src="./images/client-audiophile.svg" alt="b">
+          <img src="./images/client-meet.svg" alt="c">
+          <img src="./images/client-maker.svg" alt="d">
+        </div>
+      </div>
+      <div class="c-2">
+        <img src="./images/image-hero-desktop.png" alt="main-img" class="d-d">
+        <img src="./images/image-hero-mobile.png" alt="main-img" class="d-m">
+      </div>
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+</html>

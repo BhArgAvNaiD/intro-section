@@ -1,0 +1,34 @@
+@media screen and (max-width:768px){
+    .d-m{
+        display:block;
+    }
+    .d-d{
+        display:none;
+    }
+    .container-1{
+        max-width: 100%;
+        width:400px;
+        margin:0 auto;
+    }
+    .container-2{
+        max-width:100%;
+        width:400px;
+        margin:0 auto;
+    }
+    .flex-r{
+        flex-direction: column-reverse;
+    }
+    .c-1 h1{
+        font-size:2.5rem;
+        margin-top: 20px;
+        font-weight: 700;
+    }
+    .c-1{
+        text-align: center;
+    }
+    .dd-c{
+        display:none;
+        position:relative;
+        background-color:white;
+    }
+}

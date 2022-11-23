@@ -1,0 +1,35 @@
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+
+body p{
+    font-size: 18px;
+}
+
+.flex-r{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-c{
+    display:flex;
+    flex-direction: column;
+    align-content:space-between
+}
+
+.container-1{
+    max-width: 100%;
+    width:1440px;
+    margin:0 auto;
+}
+
+.container-2{
+    max-width:100%;
+    width:1200px;
+    margin:0 auto;
+}
+
+.m-t{
+    margin-top:30px;
+}
