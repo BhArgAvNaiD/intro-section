@@ -118,7 +118,7 @@ header{
     width:30px;
     position:absolute;
     top:30px;
-    right:40px;
+    right:10px;
     z-index:1;
     cursor:pointer;
 }
