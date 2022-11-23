@@ -7,13 +7,18 @@
     }
     .container-1{
         max-width: 100%;
-        width:400px;
+        width:450px;
         margin:0 auto;
     }
     .container-2{
         max-width:100%;
-        width:400px;
+        width:440px;
         margin:0 auto;
+    }
+
+    header{
+        position:sticky;
+        top:0;
     }
     .flex-r{
         flex-direction: column-reverse;
